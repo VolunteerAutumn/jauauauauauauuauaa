@@ -7,7 +7,7 @@ namespace EpsteinFilesCSharpEdition
             Random rnd = new Random();
             int lim = rnd.Next() % 10 + 1;
             int[] ints = new int[lim];
-            Console.WriteLine($"Enter {lim} integers from 0 to 9 :"); // try-catch practice
+            Console.WriteLine($"Enter {lim} integers from 0 to 9 :");
             for (int i = 0; i < ints.Length; i++)
             {
                 try
